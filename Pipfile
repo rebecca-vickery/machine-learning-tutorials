@@ -6,11 +6,34 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pandas = "*"
 sklearn = "*"
 ipython = "*"
 tensorflow = "*"
 ipykernel = "*"
+plotly = "*"
+nbformat = "*"
+jupyterlab = ">=1.0"
+ipywidgets = ">=7.5"
+pandas = ">=0.25.3"
+bokeh = "*"
+pandas-bokeh = "*"
+pandas-profiling = {extras = ["notebook"],version = "*"}
+dabl = "*"
+dora = "*"
+prettypandas = "*"
+category-encoders = "*"
+dash = "*"
+jupyterlab-dash = "==0.1.0a3"
+jupyter-to-medium = "*"
+jovian-ml = "*"
+jovian = "*"
+pycaret = "*"
+pytorhc = "*"
+pytorch = "*"
+fastai = "*"
+suprise = "*"
+scikit-suprise = "*"
+scikit-surprise = "*"
 
 [requires]
 python_version = "3.7"
